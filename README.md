@@ -2,7 +2,7 @@
 
 自作のTypeScriptモジュール．便利関数とか．
 
-## random.ts
+## random
 ```ts
 import * from 'https://raw.githubusercontent.com/dep689/tsmodules/main/random.ts'
 ```
@@ -11,3 +11,11 @@ import * from 'https://raw.githubusercontent.com/dep689/tsmodules/main/random.ts
 - `randPerm(n: number)` : [0,1,...,n-1] をランダムに並び替えた配列
 - `shuffle<T>(a: T[])` : a の要素をランダムに並び替える
 - `shuffled<T>(a: T[])` : a の要素をランダムに並び替えた配列．元の a は変わらない．
+
+## iteration
+```ts
+import * from 'https://raw.githubusercontent.com/dep689/tsmodules/main/iteration/mod.ts'
+```
+
+- `range([start: number, ]stop: number[, step=1])`
+- `zeroTo(stop: number)`
