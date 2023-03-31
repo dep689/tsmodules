@@ -19,3 +19,9 @@ import * from 'https://raw.githubusercontent.com/dep689/tsmodules/main/iteration
 
 - `range([start: number, ]stop: number[, step=1])`
 - `zeroTo(stop: number)`
+
+```ts
+Array.from(range(4))       // [ 0, 1, 2, 3 ]
+Array.from(range(1,4))     // [ 1, 2, 3 ]
+Array.from(range(0,10,2))  // [ 0, 2, 4, 6, 8 ]
+```
